@@ -226,3 +226,6 @@ Compatibility, Denver, Colorado, 5-9 August, 2013, pp. 222-226.
 [Bugs.md]: https://github.com/flintoftid/aegmesher/blob/master/doc/Bugs.md
 [ToDo.md]: https://github.com/flintoftid/aegmesher/blob/master/doc/ToDo.md
 [Licence.md]: https://github.com/flintoftid/aegmesher/blob/master/Licence.md
+
+
+You'd better not forget to download this paper:A Three-Dimension Cartesian Mesh Generation Algorithm Based on the GPU Parallel Ray Casting Method.
