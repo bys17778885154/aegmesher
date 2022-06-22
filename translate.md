@@ -86,7 +86,7 @@ n_{e_i} = (-e_{i,y}, e_{i,x})^T \cdot\begin{cases}1,\quad n_z \ge 0 \\
 \end{cases} \tag{13}
 $$
 
-$$d_{e_i} = -\langle n_{e_i},v_i \rangle + max\{0,\Delta p_xn_{e_i, x}\} + max\{0,\Delta p_yn_{e_i, y}\} \tag{14}$$
+$$d_{e_i} = -\langle n_{e_i},v_i \rangle + max\lbrace 0,\Delta p_xn_{e_i, x}\rbrace + max\lbrace 0,\Delta p_yn_{e_i, y}\rbrace \tag{14}$$
 
 $$\bigcap_{i=0}^2 (\langle n_{e_i}, p_{min} \rangle + d_{e_i} > 0) \tag{15}$$
 
@@ -123,7 +123,7 @@ $$r_z = v_{0,z} + A_x^0\cdot \frac{n_x}{n_z} + A_y^0\cdot \frac{n_y}{n_z} \tag{{
 
 其中r~z~为交点的z坐标。
 $$
-cell_r^i = \begin{cases}1,\quad r_z^{2n-1} < i\cdot s_z \le r_z^(2n) \\
+cell_r^i = \begin{cases}1,\quad r_z^{2n-1} < i\cdot s_z \le r_z^{2n} \\
 0,\quad else
 \end{cases} \tag{20}
 $$
