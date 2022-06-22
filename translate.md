@@ -123,7 +123,8 @@ $$r_z = v_{0,z} + A_x^0\cdot \frac{n_x}{n_z} + A_y^0\cdot \frac{n_y}{n_z} \tag{{
 
 其中r~z~为交点的z坐标。
 $$
-cell_r^i = \begin{cases}1,\quad r_z^{2n-1} < i\cdot s_z \le r_z^{2n} \\
+cell_r^i = \begin{cases}
+1,\quad r_z^{2n-1} < i\cdot s_z \le r_z^{2n} \\
 0,\quad else
 \end{cases} \tag{20}
 $$
